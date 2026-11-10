@@ -1,0 +1,20 @@
+{
+  "name": "ask-echo",
+  "version": "1.0.0",
+  "description": "Drop-in, Claude-powered website assistant. One script tag, per-client config, API key kept server-side.",
+  "type": "module",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2"
+  },
+  "author": "Riyasat Rehman (Echo Corp)",
+  "license": "MIT"
+}
